@@ -1,7 +1,11 @@
-h1 {
-  color: green;
-}
 
-body {
-  font-family: "Montserrat", "Arial", sans-serif;
-}
+@import "blocks/variables.scss";
+@import "blocks/page-header.scss";
+@import "blocks/general.scss";
+@import "blocks/container.scss";
+@import "blocks/promo.scss";
+@import "blocks/nav-list.scss";
+@import "blocks/button.scss";
+@import "blocks/spots-list.scss";
+@import "blocks/tabs.scss";
+

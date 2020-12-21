@@ -1,0 +1,39 @@
+
+  .nav-list {
+    display: flex;
+    font-size: 14px;
+    height: 100%;
+    align-items: center;
+    max-width: 600px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    min-height: 100px;
+  }
+
+  .nav-list__item {
+    margin: 0 10px;
+    padding: 21px 20px 20px 20px;
+    box-sizing: border-box;
+
+    &:last-of-type {
+      padding-right: 15px;
+      margin-right: 0;
+    }
+
+    &:last-of-type .nav-list__link {
+      font-size: 18px;
+      font-weight: 400;
+      text-decoration: underline;
+    }
+  }
+
+  .nav-list__link {
+    color: $darkblue;
+    font-weight: 500;
+  }
+
+@media (max-width: $tablet) {
+  .nav-list {
+    display: none;
+  }
+}
