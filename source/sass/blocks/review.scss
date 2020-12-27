@@ -1,0 +1,36 @@
+
+.review {
+  width: 382px;
+  height: 362px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: $white;
+}
+
+.review__author-img {
+  width: 30px;
+  height: 30px;
+}
+
+.review__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  letter-spacing: -0.69px;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 68px;
+    height: 1px;
+    background-color: $pink;
+    bottom: -10px;
+    left: 0;
+  }
+}
+
+.review__author-name {
+
+}
